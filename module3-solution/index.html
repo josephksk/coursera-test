@@ -20,7 +20,7 @@
 <body>
 <div id="top"></div>
 <header>
-  <nav class="navbar navbar-default navbar-fixed-top">
+  <nav class="navbar navbar-default navbar-fixed-top"> <!--makes nav bar scroll with page -->
     <div class="header">
       <div class="navbar-brand"></div>
         <a href="index.html"><h1>FooD, LCC</h1> </a>
@@ -33,13 +33,13 @@
         <div id="collapsable-nav" class="collapse navbar-collapse">
            <ul id="nav-list" class="nav navbar-nav navbar-right">
             <li>           
-              <a class="visible-xs"><br> Chicken </a>
+              <a href="#chicken" class="visible-xs"><br> Chicken </a>
             </li>
             <li>
-              <a class="visible-xs"><br> Beef</a>
+              <a href="#beef" class="visible-xs"><br> Beef</a>
             </li>
             <li>
-              <a class="visible-xs"> <br> Sushi</a>
+              <a href="#sushi" class="visible-xs"> <br> Sushi</a>
             </li>
           </ul><!-- #nav-list -->
         </div><!-- .collapse .navbar-collapse -->
@@ -51,7 +51,7 @@
   <div id="main-content" class="container">
     <h1 id="title" class="text-center css-selector"> OUR Menu </h1>
       <div class="col-xs-12 col-sm-6 col-md-4 column">
-        <div class="content yellow">
+        <div class="content yellow"><div id="chicken" class="negative-anchor"></div>
           <h3>Chicken</h3>
           <p>
             Bacon ipsum dolor amet cillum shoulder dolor ea pork belly ribeye mollit et. Eiusmod leberkas enim drumstick rump. Ut strip steak salami proident biltong short loin jerky, cupim ut. Laborum burgdoggen beef, bresaola ad quis pork frankfurter veniam. Beef leberkas ut, tempor labore excepteur alcatra ea fugiat.
@@ -72,7 +72,7 @@
         </div>
       </div>
       <div class="col-xs-12 col-sm-6 col-md-4 column">
-        <div class="content red">
+        <div class="content red"><div id="beef" class="negative-anchor"></div>
           <h3>Beef</h3>
           <p>
             Bacon ipsum dolor amet cillum shoulder dolor ea pork belly ribeye mollit et. Eiusmod leberkas enim drumstick rump. Ut strip steak salami proident biltong short loin jerky, cupim ut. Laborum burgdoggen beef, bresaola ad quis pork frankfurter veniam. Beef leberkas ut, tempor labore excepteur alcatra ea fugiat.
@@ -93,7 +93,7 @@
         </div>
       </div>
       <div class="col-xs-12 col-sm-12 col-md-4 column">
-        <div class="content green">
+        <div class="content green"><div id="sushi" class="negative-anchor"></div>
           <h3>Sushi</h3>
           <p>
             Bacon ipsum dolor amet cillum shoulder dolor ea pork belly ribeye mollit et. Eiusmod leberkas enim drumstick rump. Ut strip steak salami proident biltong short loin jerky, cupim ut. Laborum burgdoggen beef, bresaola ad quis pork frankfurter veniam. Beef leberkas ut, tempor labore excepteur alcatra ea fugiat.
