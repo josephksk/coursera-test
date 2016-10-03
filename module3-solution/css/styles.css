@@ -3,12 +3,15 @@ font-family: 'Shadows Into Light', cursive;
 }
 #top {
 	position: absolute;
-    top: 0;
+    top: 0; /*offset to make link to H1 go to top of the page otherwise stays behind nav bar*/
 }
 body { 
     padding-top: 65px; 
 }
 /*HEADER*/
+h1 {
+	color: black;
+}
 .navbar {
 	background-color: #2ae5d7;
 	opacity: 0.7;
@@ -42,7 +45,8 @@ body {
   margin-top: 10px;
 }
 #nav-list a {
-  color: #951C49;
+	font-size: 1.8em;
+  color: black;
   text-align: center;
 }
 #nav-list a:hover {
@@ -68,34 +72,24 @@ h3 {
 	text-decoration: underline;
 	font-family: 'Shadows Into Light', cursive;
 	text-align: center;
-
-}
-#title {
-
 }
 #main-content {
 	margin-top: 60px;
-
 }
 #main-content.container {
 	height: 1000px;
 }
 .yellow {
 	background-color: #dfe112;
-	opacity: 0.8;
-	
-	
+	opacity: 0.8;	
 }
 .red {
 	background-color: #ee1313;
 	opacity: 0.8;
-	
-	
 }
 .green {
 	background-color: #18d425;
-	opacity: 0.8;
-	
+	opacity: 0.8;	
 }
 .column {
 	margin-top: 1px;
@@ -108,6 +102,11 @@ h3 {
 	padding-right: 5px;
 	padding-left: 5px;
 	padding-bottom: 5px;
+	position: relative;
+}
+.negative-anchor {
+	position: absolute;
+	top: -300px; /*offset for h3 to show below open menu*/
 }
 /********** DESKTOP **********/
 @media (min-width: 1200px) {
