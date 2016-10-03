@@ -1,0 +1,133 @@
+.css-selector {
+font-family: 'Shadows Into Light', cursive;
+}
+#top {
+	position: absolute;
+    top: 0;
+}
+body { 
+    padding-top: 65px; 
+}
+/*HEADER*/
+.navbar {
+	background-color: #2ae5d7;
+	opacity: 0.7;
+}
+.navbar-brand {
+  padding-top: 25px;
+}
+.header {
+	position: relative;
+}
+#menu {
+	position: absolute;
+	top: 0;
+	right: 10px;
+}
+.navbar-brand h1 {
+  color: black;
+  font-size: 1.5em;
+  text-transform: uppercase;
+  font-weight: bold;
+  text-shadow: 1px 1px 1px #222;
+  margin-top: 0;
+  margin-bottom: 0;
+  line-height: .75;
+}
+.navbar-brand a:hover, .navbar-brand a:focus {
+  text-decoration: none;
+}
+
+#nav-list {
+  margin-top: 10px;
+}
+#nav-list a {
+  color: #951C49;
+  text-align: center;
+}
+#nav-list a:hover {
+  background: #E7E7E7;
+}
+#nav-list a span {
+  font-size: 1.8em;
+}
+.navbar-header button.navbar-toggle {
+  clear: both;
+  margin-top: -30px;
+}
+#collapsable-nav {
+	padding-bottom: 30px;
+}
+/*HOMEPAGE*/
+p {
+	padding-right: 15px;
+	padding-left: 15px;
+	text-align: justify;
+}
+h3 {
+	text-decoration: underline;
+	font-family: 'Shadows Into Light', cursive;
+	text-align: center;
+
+}
+#title {
+
+}
+#main-content {
+	margin-top: 60px;
+
+}
+#main-content.container {
+	height: 1000px;
+}
+.yellow {
+	background-color: #dfe112;
+	opacity: 0.8;
+	
+	
+}
+.red {
+	background-color: #ee1313;
+	opacity: 0.8;
+	
+	
+}
+.green {
+	background-color: #18d425;
+	opacity: 0.8;
+	
+}
+.column {
+	margin-top: 1px;
+}
+.content {
+	margin-top: 10px;
+	margin-left: 5px;
+	margin-right: 5px;
+	padding-top: 5px;
+	padding-right: 5px;
+	padding-left: 5px;
+	padding-bottom: 5px;
+}
+/********** DESKTOP **********/
+@media (min-width: 1200px) {
+  
+ }
+/********** TABLET **********/
+@media (min-width: 992px) and (max-width: 1199px) {
+  
+ }
+  /********** MOBILE **********/
+@media (max-width: 991px) {
+  #collapsable-nav a { /* Collapsed nav menu text */
+    font-size: 1.2em;
+  }
+  .navbar-brand {
+    padding-top: 10px;
+    height: auto;
+  }
+  .navbar-brand h1 {
+    padding-top: 10px;
+    font-size: 5vw; 
+  }
+ }

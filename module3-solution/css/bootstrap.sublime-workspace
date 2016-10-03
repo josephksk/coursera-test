@@ -1,0 +1,229 @@
+{
+	"auto_complete":
+	{
+		"selected_items":
+		[
+			[
+				"ba",
+				"background-color"
+			],
+			[
+				"pad",
+				"padding"
+			],
+			[
+				"padd",
+				"padding-left"
+			],
+			[
+				"he",
+				"header	Tag"
+			],
+			[
+				"top",
+				"margin-top"
+			],
+			[
+				"wi",
+				"width"
+			],
+			[
+				"te",
+				"text-align"
+			],
+			[
+				"bo",
+				"border-box"
+			],
+			[
+				"box",
+				"box-sizing"
+			],
+			[
+				"mar",
+				"margin-bottom"
+			],
+			[
+				"cen",
+				"align-content"
+			],
+			[
+				"di",
+				"div	Tag"
+			]
+		]
+	},
+	"buffers":
+	[
+	],
+	"build_system": "",
+	"build_system_choices":
+	[
+	],
+	"build_varint": "",
+	"command_palette":
+	{
+		"height": 0.0,
+		"last_filter": "",
+		"selected_items":
+		[
+		],
+		"width": 0.0
+	},
+	"console":
+	{
+		"height": 0.0,
+		"history":
+		[
+		]
+	},
+	"distraction_free":
+	{
+		"menu_visible": true,
+		"show_minimap": false,
+		"show_open_files": false,
+		"show_tabs": false,
+		"side_bar_visible": false,
+		"status_bar_visible": false
+	},
+	"file_history":
+	[
+		"/Users/ksk/test_site/module3-solution/index.html",
+		"/Users/ksk/Downloads/webpage/index.html",
+		"/Users/ksk/Downloads/webpage/scripts/main.js",
+		"/Users/ksk/Downloads/webpage/styles/style.css",
+		"/Users/ksk/Downloads/webpage/styles/stylejose.css",
+		"/Users/ksk/test_site/module2-solution/css/style.css",
+		"/Users/ksk/test_site/module2-solution/module2-solution.html",
+		"/Users/ksk/test_site/coursera-test/fullstack-course4/examples/Lecture22/positioning-after.html",
+		"/Users/ksk/test_site/coursera-test/fullstack-course4/examples/Lecture19/box-model-after.html",
+		"/Users/ksk/test_site/module2-solution/module2-solution:css/style.css",
+		"/Users/ksk/test_site/coursera-test/fullstack-course4/examples/Lecture12/css-syntax.html",
+		"/Users/ksk/test_site/coursera-test/site/index.html",
+		"/Users/ksk/test_site/index.html",
+		"/Users/ksk/Library/Application Support/Sublime Text 3/Packages/User/Preferences.sublime-settings"
+	],
+	"find":
+	{
+		"height": 23.0
+	},
+	"find_in_files":
+	{
+		"height": 0.0,
+		"where_history":
+		[
+		]
+	},
+	"find_state":
+	{
+		"case_sensitive": false,
+		"find_history":
+		[
+			"ber"
+		],
+		"highlight": true,
+		"in_selection": false,
+		"preserve_case": false,
+		"regex": false,
+		"replace_history":
+		[
+			"p",
+			"h2"
+		],
+		"reverse": false,
+		"show_context": true,
+		"use_buffer2": true,
+		"whole_word": false,
+		"wrap": true
+	},
+	"groups":
+	[
+		{
+			"sheets":
+			[
+			]
+		}
+	],
+	"incremental_find":
+	{
+		"height": 23.0
+	},
+	"input":
+	{
+		"height": 0.0
+	},
+	"layout":
+	{
+		"cells":
+		[
+			[
+				0,
+				0,
+				1,
+				1
+			]
+		],
+		"cols":
+		[
+			0.0,
+			1.0
+		],
+		"rows":
+		[
+			0.0,
+			1.0
+		]
+	},
+	"menu_visible": true,
+	"output.find_results":
+	{
+		"height": 0.0
+	},
+	"pinned_build_system": "",
+	"project": "bootstrap.sublime-project",
+	"replace":
+	{
+		"height": 42.0
+	},
+	"save_all_on_build": true,
+	"select_file":
+	{
+		"height": 0.0,
+		"last_filter": "",
+		"selected_items":
+		[
+		],
+		"width": 0.0
+	},
+	"select_project":
+	{
+		"height": 0.0,
+		"last_filter": "",
+		"selected_items":
+		[
+		],
+		"width": 0.0
+	},
+	"select_symbol":
+	{
+		"height": 0.0,
+		"last_filter": "",
+		"selected_items":
+		[
+		],
+		"width": 0.0
+	},
+	"selected_group": 0,
+	"settings":
+	{
+	},
+	"show_minimap": false,
+	"show_open_files": true,
+	"show_tabs": true,
+	"side_bar_visible": false,
+	"side_bar_width": 246.0,
+	"status_bar_visible": true,
+	"template_settings":
+	{
+	}
+}
